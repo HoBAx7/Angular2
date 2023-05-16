@@ -1,0 +1,32 @@
+.card{
+    height: auto;
+   box-shadow: none;
+}
+.card:hover{
+    box-shadow: 2px 5px 10px gray;
+    
+    transform: scale(1.03);
+}
+
+.rot{
+    animation: rotation 1s normal none; 
+}
+rot2{
+    animation: rotation 1s normal none; 
+}
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+}
+.card-deck{
+    height: 100%
+}
+.btn{
+    border: 1px solid rgb(196, 128, 4);
+    color: rgb(196, 128, 4);
+}
+
